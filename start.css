@@ -1,0 +1,76 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	;
+}
+
+main {
+	background-image: url("gd.jpg");
+	height: 120vh;
+	background-repeat: no-repeat;
+	background-size: 100vw 120vh;
+	/* opacity: 0.756; */
+}
+
+
+.sec1 {
+	height: 82vh;
+	display: flex;
+}
+
+.sec2 {
+	height: 38vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+footer {
+	height: 8vh;
+	background-color: #201d1d;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	font-size: 100%;
+	color: rgb(202, 163, 163);
+}
+
+.left {
+	width: 50vw;
+	/* background-color: green; */
+}
+
+.right {
+	width: 50vw;
+	/* background-repeat: no-repeat;
+	background-size: 50vw 82vh; */
+}
+
+.box {
+	height: 32vh;
+	background-color: rgb(56, 54, 54);
+	width: 25vw;
+	margin-right: 5%;
+	box-shadow: 10px -10px 11px rgb(0, 0, 0);
+	border-style: solid;
+	border-width: 0px 0px 0px 6px;
+	border-color: rgb(34, 32, 32);
+	border-radius: 10px;
+	color: rgb(136, 104, 104);
+}
+
+.box h1 {
+	margin-left: 5%;
+	text-shadow: 8px 8px 10px black;
+}
+
+.box p {
+	padding: 1.5vw;
+	color: rgb(202, 163, 163);
+	text-shadow: 3px 3px 6px rgb(7, 6, 6);
+	font-size: 18px;
+}

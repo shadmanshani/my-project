@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	width: 100vw;
+	height: 10vh;
+	background-color: #413c3c;
+	display: flex;
+	color: rgb(221, 195, 195);
+}
+
+
+.logo {
+	max-height: 10vh;
+	width: 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo h1:hover {
+	color: rgb(223, 91, 91);
+
+}
+
+.nav {
+	height: 10vh;
+	width: 50vw;
+}
+
+.bar {
+	max-height: 10vh;
+	width: 30vw;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.bar .s {
+	padding-right: 3vw;
+	padding-left: ;
+}
+
+.bar .s #search {
+	width: 18vw;
+	height: 4.8vh;
+	border-radius: 6px;
+	background-color: rgb(221, 195, 195);
+}
+
+.bar .s #search:hover {
+	background-color: rgb(8, 7, 7);
+	color: white;
+
+}
+
+.bar .s #button {
+	width: 6vw;
+	height: 4.5vh;
+	border-radius: 7px;
+	background-color: black;
+	color: white;
+}
+
+/* .bar .s #button:hover {
+	background-color: rgb(233, 222, 222);
+	color: black;
+} */
+
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: rgb(221, 195, 195);
+	padding-right: 9vh;
+	font-size: 100%;
+	text-shadow: 8px 8px 12px rgb(2, 2, 2);
+}
+
+.nav ul li a:hover {
+	color: rgb(223, 91, 91);
+}
+
+.nav ul {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	height: 10vh;
+
+}
